@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615830297378",
+    "firebase_url": "https://activatecsprint.firebaseio.com",
+    "project_id": "activatecsprint",
+    "storage_bucket": "activatecsprint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615830297378:android:0a41010e7bc9d05366e37b",
+        "android_client_info": {
+          "package_name": "com.example.activatecsprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615830297378-5hfq6q0aa9ph49jp2ak2mc1vafv31a5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.activatecsprint",
+            "certificate_hash": "1b091340bb6bfe9239164705346a38a4f63c18d1"
+          }
+        },
+        {
+          "client_id": "615830297378-dqtsa0lfq6bfaqelee6raprs1922fd4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4nNnf5MrhDdt9b7R250oV-61lM0E1wIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615830297378-dqtsa0lfq6bfaqelee6raprs1922fd4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+Ruta a seguir para archivos principalews
+
+
+Archivos Java
+app -> src -> java -> main -> com -> example -> activatecsprint
+
+Archivos xml
+
+app -> src -> main -> res -> layout

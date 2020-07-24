@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivaTecSprint</string>
+    <string name="log_out">log_out</string>
+    <string name="revoke">revoke</string>
+    <string name="not_log_in">not log in</string>
+    <string name="not_closed_session">no se cerró la sesión</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

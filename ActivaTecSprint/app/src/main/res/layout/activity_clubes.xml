@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clubes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/inicioclub"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="Inicio"
+                android:textColor="#03A9F4" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="   Clubes"
+                android:textSize="25sp"
+                android:gravity="left|center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/horario"
+                style="@android:style/Widget.Material.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FDFFFF"
+                android:gravity="left|center"
+                android:text="   Info de clubes y agrupaciones"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#03A9F4"
+                android:textSize="23sp" />
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+
+            <ImageButton
+                android:id="@+id/dance"
+                android:layout_width="144dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="41dp"
+                android:layout_marginEnd="236dp"
+                android:layout_marginBottom="428dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/dance" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="144dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="51dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginBottom="428dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/matematica"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/fedup" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="144dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="239dp"
+                android:layout_marginBottom="391dp"
+                android:background="#FFFFFF"
+                android:text="UTEC Dance"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/matematica" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="144dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginBottom="391dp"
+                android:background="#FFFFFF"
+                android:text="FEDUP"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+            <ImageButton
+                android:id="@+id/space"
+                android:layout_width="144dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="236dp"
+                android:layout_marginBottom="247dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:srcCompat="@drawable/space" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="144dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="51dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginBottom="247dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageButton7"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:srcCompat="@drawable/amnl" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="144dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="239dp"
+                android:layout_marginBottom="215dp"
+                android:background="#FFFFFF"
+                android:text="UTEC Space"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="144dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginBottom="215dp"
+                android:background="#FFFFFF"
+                android:text="AMNL"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
